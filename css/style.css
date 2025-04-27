@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+/*Inicio da NavBar*/
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1440px;
+  height: 80px;
+  background-color: white;
+  font-weight: 500;
+}
+
+.container {
+  width: 1280px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 0 32px;
+}
+.button-base {
+  width: 148px;
+  height: 26.99px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.button-base .world {
+  width: 27px;
+  height: 26.99px;
+}
+
+.button-base span {
+  font-size: 18px;
+  line-height: 24px;
+  color: #3a404e;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  width: 362px;
+  height: 32px;
+  gap: 40px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 33px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: table-cell;
+}
+
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: #667085;
+}
+
+.logo {
+  width: 142px;
+  height: 32px;
+}
+
+.navigation {
+  width: 207px;
+  height: 44px;
+  gap: 12px;
+}
+
+.navigation button {
+  border-radius: 8px;
+  padding: 10px 18px;
+  gap: 8px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+
+.navigation .entrar {
+  width: 83px;
+  height: 44px;
+  border: none;
+  background-color: white;
+  color: #667085;
+}
+
+.navigation .cadastrar {
+  width: 112px;
+  height: 44px;
+  border: 1px solid #8e2424;
+  background-color: #8e2424;
+  box-shadow: 0px 1px 2px 0px #1018280d;
+  color: white;
+}
+/*Fim da NavBar*/
