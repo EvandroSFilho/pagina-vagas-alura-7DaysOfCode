@@ -22,7 +22,7 @@ O desafio consistia em:
 
 ## 📸 Preview
 
-(Adicione aqui um print da página finalizada ou o link do GitHub Pages se publicar!)
+⚠️ O projeto está em desenvolvimento. Em breve será disponibilizado um preview!
 
 ## 📂 Como Rodar o Projeto
 
