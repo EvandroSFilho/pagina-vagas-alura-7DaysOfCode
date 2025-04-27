@@ -2,64 +2,37 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+:root {
+  --text-color: #667085;
+  --main-color: #8e2424;
 }
 
 body {
-  font-family: "Inter", sans-serif;
+  width: 100%;
+  height: 100vh;
 }
 /*Inicio da NavBar*/
 nav {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  max-width: 1440px;
-  height: 80px;
-  background-color: white;
-  font-weight: 500;
+  padding: 1rem 0;
 }
 
-.container {
-  width: 1280px;
-  height: 44px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  justify-content: space-between;
-  padding-right: 0 32px;
-}
-.button-base {
-  width: 148px;
-  height: 26.99px;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.button-base .world {
-  width: 27px;
-  height: 26.99px;
-}
-
-.button-base span {
-  font-size: 18px;
-  line-height: 24px;
-  color: #3a404e;
-}
-
-.content {
+.links {
   display: flex;
   justify-content: center;
   width: 362px;
   height: 32px;
-  gap: 40px;
 }
 
 nav ul {
   display: flex;
   align-items: center;
   gap: 33px;
-  font-size: 16px;
-  line-height: 24px;
 }
 
 nav ul li {
@@ -70,43 +43,23 @@ nav ul li {
 nav ul li a {
   display: block;
   text-decoration: none;
-  color: #667085;
+  font-size: 0.9rem;
+  color: var(--text-color)
 }
 
-.logo {
-  width: 142px;
-  height: 32px;
-}
-
-.navigation {
-  width: 207px;
-  height: 44px;
-  gap: 12px;
-}
-
-.navigation button {
-  border-radius: 8px;
-  padding: 10px 18px;
-  gap: 8px;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0%;
-}
-
-.navigation .entrar {
-  width: 83px;
-  height: 44px;
+button {
+  border-radius: 0.5rem;
   border: none;
-  background-color: white;
-  color: #667085;
+  padding: 0.8rem 1rem;
+  cursor: pointer;
+  font-weight: 500;
+  background: none;
+  color: var(--text-color);
+  font-size: 0.9rem;
 }
 
-.navigation .cadastrar {
-  width: 112px;
-  height: 44px;
-  border: 1px solid #8e2424;
+.signUp {
   background-color: #8e2424;
-  box-shadow: 0px 1px 2px 0px #1018280d;
   color: white;
 }
 /*Fim da NavBar*/
