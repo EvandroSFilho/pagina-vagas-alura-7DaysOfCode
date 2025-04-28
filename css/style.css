@@ -8,6 +8,7 @@
 :root {
   --text-color: #667085;
   --main-color: #8e2424;
+  --title-color: #101828;
 }
 
 body {
@@ -78,7 +79,6 @@ button {
     padding: 5rem 0;
 }
 
-
 .header span{
     color: var(--main-color);
 }
@@ -95,3 +95,33 @@ p{
     color: var(--text-color);
 }
 /*End of Header*/
+
+/*Start of Métricas*/
+.container-metricas{
+  display: grid;
+  grid-template-columns: repeat(4, 14rem);
+  gap: 2rem;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.number{
+  font-weight: 600;
+  font-size: 3.7rem;
+  color: var(--main-color);
+}
+
+.title{
+  font-weight: 500;
+  font-size: 1.1rem;
+  margin: 0.8rem 0;
+  color: var(--title-color);
+}
+
+.description{
+  font-weight: 400;
+  font-size: 0.8rem;
+  word-break: keep-all;
+}
+
+/*End of Métricas*/
